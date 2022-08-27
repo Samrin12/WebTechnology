@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header-part start */
+.header-part{
+    min-height: 100vh;
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-part header .header-logo{
+    width: 80%;
+}
+.header-part header .navbar-light .navbar-nav .nav-link {
+    color: #2F2F2F;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+    font-family: 'Metrophobic', sans-serif;
+    position: relative;
+    transition:.4s all ease-in-out;
+}
+.header-part header .navbar-light .navbar-nav .nav-link:hover{
+    color: #EB3A4C;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -3%;
+    height: 2px;
+    width: 0%;
+    background-color:#EB3A4C;
+    transition:.4s all ease-in-out;
+
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -3%;
+    height: 2px;
+    width: 0%;
+    background-color: #EB3A4C;
+    transition:.4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 50%;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 50%;
+}
+.header-part .banner{
+    
+}
+.header-part .banner .content{
+    
+margin-left: 140px;
+}
+.header-part .banner .content h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+.header-part .banner .content h1 span{
+    font-family: 'Bebas Neue', cursive;
+    color: #EB3A4C;
+}
+.header-part .banner .content p{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 20px;
+}
+.header-part .banner .content .book{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #EB3A4C;
+    border: solid 1px #EB3A4C;
+    border-radius: 30px;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition: .6s all ease-in-out;
+}
+.header-part .banner .content .book:hover{
+    background-color:#EB3A4C ;
+    color: #fff;
+}
+.header-part .banner .content .project{
+    font-family: 'Metrophobic', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid #EB3A4C;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 24px;
+    background: #EB3A4C;
+    color: #fff;
+    transition: .6s all ease-in-out;
+}
+.header-part .banner .content .project:hover{
+    color:#EB3A4C ;
+    background-color: transparent;
+}
+/* header part end */
+/* service part start */
+.service-part{
+    font-family: 'Metrophobic', sans-serif;
+    background-color: #FAFAFA;
+    padding-bottom: 20px;
+}
+.service-part .heading{
+margin-top: 20px;
+}
+.service-part .heading span{
+    color: #EB3A4C;
+    font-size: 40px;
+    
+margin: 20px auto 8px;
+    
+font-weight: 500;
+}
+.service-part .heading h1{
+    
+text-transform: capitalize;
+    
+color: #2F2F2F;
+margin-bottom: 10px;
+    
+font-size: 52px;
+    
+font-weight: 600;
+}
+.service-part .heading p{
+    
+font-weight: 300;
+    
+color: #2F2F2F;
+    
+font-size: 18px;
+margin:10px auto 30px;
+}
+.service-part .service{
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 10px 15px 14px 15px;
+    height: 460px;
+    box-shadow: 5px 5px 20px 0px rgb(160 150 150 / 26%);
+}
+.service-part .service span{
+
+border-radius: 10px;
+
+background-color: #EB3A4C;
+
+height: 4px;
+
+width: 50px;
+
+margin: 0px auto 20px;
+
+display: block;
+}
+.service-part .service .icon{height: 70px;width: 60px;margin: 40px auto 25px;}
+.service-part .service .icon img{
+}
+.service-part .service h1{
+
+font-size: 26px;
+
+font-weight: bold;
+
+color: #2F2F2F;
+
+text-transform: capitalize;
+}
+.service-part .service p{
+
+padding-left: 30px;
+
+padding-right: 30px;
+
+color: #2F2F2F;
+}
+.service-part .owl-item.center .service{
+    background-color: #EB3A4C;
+    
+}
+.service-part .owl-item.center .service h1{
+    color: #fff;
+}
+.service-part .owl-item.center .service p{
+    color: #fff;
+}
+.service-part .owl-item.center .service span{
+    background-color: #fff;
+}
+.service-part .button{}
+.service-part .button .explore{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #EB3A4C;
+    border: solid 1px #EB3A4C;
+    border-radius: 30px;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition: .6s all ease-in-out;
+    width: 14%;
+    margin: 40px auto 20px;
+}
+.service-part .button .explore:hover{
+    background-color:#EB3A4C ;
+    color: #fff;
+}
+/* service part end */
+/* project part start */
+.project-part{
+    font-family: 'Metrophobic', sans-serif;
+}
+.project-part .heading{
+    margin-bottom: 30px;
+}
+.project-part .heading span{
+    color: #EB3A4C;
+    font-size: 40px;
+    
+margin: 20px auto 8px;
+    
+font-weight: 500;
+}
+.project-part .heading h1{
+    text-transform: capitalize;
+    color: #2F2F2F;
+    margin-bottom: 35px;
+    font-size: 52px;
+    font-weight: 600;
+}
+.project-part .heading nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 74%;
+    margin: 5px auto 30px;
+    padding: 0;
+}
+.project-part .heading nav ul li{
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .project-part .heading nav ul li a{
+        text-decoration: none;
+        font-size: 24px;
+        color: #2F2F2F;
+        text-transform: capitalize;
+        transition: .4s all ease-in-out;
+    }
+    .project-part .heading nav ul li a:hover{
+        color:#EB3A4C ;
+        font-weight: bold;
+    }
+    .project-part .heading nav ul li::before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -3%;
+        height: 2px;
+        width: 0%;
+        background-color:#EB3A4C;
+        transition:.4s all ease-in-out;
+    
+    }
+    .project-part .heading nav ul li::after{
+        content: '';
+        position: absolute;
+        right: 50%;
+        bottom: -3%;
+        height: 2px;
+        width: 0%;
+        background-color: #EB3A4C;
+        transition:.4s all ease-in-out;
+    }
+    .project-part .heading nav ul li:hover::after{
+        width: 50%;
+    }
+    .project-part .heading nav ul li:hover::before{
+        width: 50%;
+    }
+    .project-image{
+
+    }
+    .project-image .img1{
+        position: relative;
+        transition: .4 all ease-in-out;
+        padding: 0;
+    }
+    .project-image .img1::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        height: 0;
+        width: 0;
+        background-color: #EB3A4C;
+      opacity: .5;
+    }
+    .project-image .img1:hover::before{
+        width: 100%;
+        height: 100%;
+    }
+    
